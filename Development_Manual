@@ -1,0 +1,19 @@
+# Development Manual
+Project Leader: Hongwu Guo, Jiangfeng Wang
+
+# 2019.12.4
+**Project Structure**
+
+Frontend：Double HTML5 Video Player. One for the input stream, Another for Human Pose Estimation Result.
+
+Backend: Four Controller
+1. FileUploadController: uploading videos to the server.(TODO: modified to WebSocket)
+2. MyfileController: mapping the videos to the specific url for frontend player.
+3. PlayerController: mapping the url to the specific url.
+4. QueryListController: query the history videos from the MySQL database.
+
+
+
+
+
+
